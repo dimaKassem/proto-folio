@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../asserts/img/contactUs.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 

@@ -1,9 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../asserts/img/proj-1.png";
-// import projImg2 from "../assets/img/project-img2.png";
-// import projImg3 from "../assets/img/project-img3.png";
-// import colorSharp2 from "../assets/img/color-sharp2.png";
+import LandingPageImg from "../asserts/img/landingPage.png";
+import SpecialDesignCompanyImg from "../asserts/img/specialDesignCompany.png";
+import ProtoFolioImg from "../asserts/img/protoFolio.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,14 +12,25 @@ export const Projects = () => {
         {
             title: "Landing Page",
             description: "Using Html & Css Only",
-            imgUrl: projImg1,
-            projectLink: '#',
+            imgUrl: LandingPageImg,
+            projectLink: 'https://dimakassem.github.io/landing-page/',
+            githupLink:'https://github.com/dimaKassem/landing-page'
         },
         {
-            title: "Movie",
+            title: "SpecialDesignCompany",
             description: "Using Html Css Javascript",
-            imgUrl: projImg1,
-            projectLink: '#',
+            imgUrl: SpecialDesignCompanyImg,
+            projectLink: 'https://dimakassem.github.io/SpecialDesignCompany/',
+            githupLink:'https://github.com/dimaKassem/SpecialDesignCompany'
+        }
+    ];
+    const reactProjects = [
+        {
+            title: "Proto-Folio",
+            description: "Using React & BootStrap",
+            imgUrl: ProtoFolioImg,
+            projectLink: 'https://dimakassem.github.io/proto-folio/',
+            githupLink:'https://github.com/dimaKassem/proto-folio'
         }
     ];
 
@@ -49,7 +59,7 @@ export const Projects = () => {
                                             className={isVisible ? "animate__animated animate__slideInUp" : ""}
                                         >
                                             <Tab.Pane eventKey="first">
-                                                <Row>
+                                                <Row className="justify-content-evenly">
                                                     {
                                                         frontEndProjects.map((project, index) => {
                                                             return (
@@ -63,10 +73,21 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                                <p>under Building</p>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                            <Row className="justify-content-evenly">
+                                                    {
+                                                        reactProjects.map((project, index) => {
+                                                            return (
+                                                                <ProjectCard
+                                                                    key={index}
+                                                                    {...project}
+                                                                />
+                                                            )
+                                                        })
+                                                    }
+                                                </Row>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>
