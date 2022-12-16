@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/proto-folio/static/css/main.8d873af4.css",
-    "main.js": "/proto-folio/static/js/main.da103dd7.js",
+    "main.css": "/proto-folio/static/css/main.cbf3d4af.css",
+    "main.js": "/proto-folio/static/js/main.8a134ba7.js",
     "static/js/787.27639aae.chunk.js": "/proto-folio/static/js/787.27639aae.chunk.js",
-    "static/media/proj-1.png": "/proto-folio/static/media/proj-1.a1c6e53ad1844910cd26.png",
-    "static/media/contactUs.png": "/proto-folio/static/media/contactUs.658921d38450785bf204.png",
+    "static/media/specialDesignCompany.png": "/proto-folio/static/media/specialDesignCompany.bb15b7efaa900ff6d2fb.png",
+    "static/media/protoFolio.png": "/proto-folio/static/media/protoFolio.fdc71fb84f45b47f21c7.png",
+    "static/media/landingPage.png": "/proto-folio/static/media/landingPage.18af8fb49b96972dca96.png",
     "static/media/header.png": "/proto-folio/static/media/header.e13c5747a0cdf9878534.png",
     "static/media/Cairo-Bold.ttf": "/proto-folio/static/media/Cairo-Bold.c78166130a8bb1c483dc.ttf",
     "static/media/Cairo-Light.ttf": "/proto-folio/static/media/Cairo-Light.8274a5026149214f40a2.ttf",
@@ -16,15 +17,16 @@
     "static/media/logo.svg": "/proto-folio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/github.svg": "/proto-folio/static/media/github.0c5fc987f74a50b9ef594c1942433af4.svg",
     "static/media/chess-queen.svg": "/proto-folio/static/media/chess-queen.ba7c5f3971a010c8621d325fef8a6025.svg",
+    "static/media/preview.svg": "/proto-folio/static/media/preview.e7b84cf8765ed3763ecf0c149d1d4cf6.svg",
     "index.html": "/proto-folio/index.html",
     "static/media/linkedin-in.svg": "/proto-folio/static/media/linkedin-in.ee944496a57ee942610f5bcd7b55815c.svg",
     "static/media/facebook-f.svg": "/proto-folio/static/media/facebook-f.30386b0716bfb016b6dee0b0a35f33f0.svg",
-    "main.8d873af4.css.map": "/proto-folio/static/css/main.8d873af4.css.map",
-    "main.da103dd7.js.map": "/proto-folio/static/js/main.da103dd7.js.map",
+    "main.cbf3d4af.css.map": "/proto-folio/static/css/main.cbf3d4af.css.map",
+    "main.8a134ba7.js.map": "/proto-folio/static/js/main.8a134ba7.js.map",
     "787.27639aae.chunk.js.map": "/proto-folio/static/js/787.27639aae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d873af4.css",
-    "static/js/main.da103dd7.js"
+    "static/css/main.cbf3d4af.css",
+    "static/js/main.8a134ba7.js"
   ]
 }
